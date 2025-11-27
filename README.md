@@ -95,12 +95,6 @@ Checks against 3.2 billion compromised credentials (requires internet).
 analyzer = PasswordAnalyzer(use_comb_api=True)
 ```
 
-### Option 3: Custom Breach File
-
-Use your own breach database file.
-```python
-analyzer = PasswordAnalyzer(breach_file_path="my_breaches.txt")
-```
 
 **Breach file format:**
 ```text
